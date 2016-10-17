@@ -1,0 +1,196 @@
+//--Main Page Styles--//
+
+#mainNav{
+  margin-left: 4%;
+  margin-right: 4%;
+  border-bottom: 2px solid #000;
+  line-height: 1.8em;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+#gallery{
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-left: 21px;
+  padding-right: 21px;
+  margin-bottom: 15px;
+}
+#contact{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+#press{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.navbar{
+  min-height: 64px;
+}
+
+.thumb{
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.thumb:active{
+  top: 2px;
+}
+.thumbnail{
+  padding: 0px;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 5px;
+}
+.social{
+  padding: 5px 15px 15px 10px;
+}
+#contact .fa{
+  color: #9e9e9e;
+}
+#contact .fa:hover{
+  color: #000;
+}
+.navbar{
+  border: none;
+  border-radius: 0;
+}
+#page-top{
+  padding-top: 50px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a.thumbnail:hover{
+  outline: 2px solid #000;
+  outline-offset: -2px;
+}
+a:hover ~ figcaption{
+  text-decoration: underline;
+}
+#carousel-example-generic{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+figcaption{
+  margin-bottom: 20px;
+}
+.navbar-brand>img{
+  height: 80%;
+  width: auto;
+}
+.navbar-brand{
+  padding: 0;
+
+}
+@media (min-width: 768px){
+.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus:hover {
+    color: #000;
+}
+}
+#gal_text{
+  position: fixed;
+}
+.carousel{
+  margin-bottom: 20px;
+}
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+.carousel-control{
+  visibility: hidden;
+}
+.carousel:hover > .carousel-control{
+  visibility: visible;
+}
+.carousel-control { background: none !important; filter: none !important; progid:none !important; }
+#work_nav:hover,
+#about_nav:hover,
+#press_nav:hover,
+#contact_nav:hover{
+  text-decoration: underline;
+}
+
+#work_nav,
+#about_nav,
+#press_nav,
+#contact_nav{
+  padding-top: 19px;
+}
+
+#contact{
+  border-top: 2px solid #000;
+  line-height: 1.8em;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus{
+  font-weight: 400;
+  font-size: 15px;
+}
+#footer_title{
+  font-weight: 300;
+  font-size: 15px;
+}
+#press > a{
+  color: #000;
+}
+#carousel-example-generic{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#footer_title{
+  padding-right: 10px;
+}
+#press{
+  padding-left: 10px;
+}
+@media (max-width: 991px){
+  #gal_text{
+    position: inherit;
+    text-align: left;
+  }
+}
+#bs-example-navbar-collapse-1{
+  border: none;
+}
+#gal_text{
+  margin-left: 5px;
+}
+@media (min-width: 992px){
+  #gal_text{
+    top: 129px;
+  }
+}
+.navbar-collapse{
+  text-align: center;
+}
+.about{
+  margin-right: 35%;
+}
