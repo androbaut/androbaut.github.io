@@ -303,9 +303,6 @@ img::-moz-selection {
   color: white;
   background: transparent; }
 
-body {
-  -webkit-tap-highlight-color: #222; }
-
 #mainNav {
   margin-left: 4%;
   margin-right: 4%;
