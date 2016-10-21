@@ -1,27 +1,27 @@
 //--Main Page Styles--//
 
 #mainNav{
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-left: 8%;
+  margin-right: 8%;
   border-bottom: 2px solid #000;
   line-height: 1.8em;
   background-color: transparent;
   margin-bottom: 20px;
 }
 #gallery{
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-left: 8%;
+  margin-right: 8%;
   padding-left: 21px;
   padding-right: 21px;
   margin-bottom: 15px;
 }
 #contact{
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 #press{
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 .navbar{
@@ -68,8 +68,8 @@ a:hover ~ figcaption{
   text-decoration: underline;
 }
 #carousel-example-generic{
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 figcaption{
   margin-bottom: 20px;
@@ -170,6 +170,7 @@ figcaption{
 }
 #press{
   padding-left: 10px;
+  text-align: center;
 }
 @media (max-width: 991px){
   #gal_text{
@@ -196,4 +197,14 @@ figcaption{
 }
 #canvas{
   margin-right: 20px;
+}
+@media screen and (min-width: 768px){
+.carousel-control .glyphicon-chevron-left{
+    margin-left: -88%;
+}
+}
+@media screen and (min-width: 768px){
+.carousel-control .glyphicon-chevron-right{
+    margin-right: -88%;
+}
 }
