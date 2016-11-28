@@ -477,10 +477,13 @@ figcaption {
   text-align: center; }
 
 .about {
-  margin-right: 35%; }
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto; }
 
 #canvas {
-  margin-right: 20px; }
+  margin: 0 auto;
+  display: block; }
 
 @media screen and (min-width: 768px) {
   .carousel-control .glyphicon-chevron-left {
@@ -488,3 +491,6 @@ figcaption {
 @media screen and (min-width: 768px) {
   .carousel-control .glyphicon-chevron-right {
     margin-right: -88%; } }
+#canvas {
+  margin: 30px auto 95px auto;
+  display: block; }
