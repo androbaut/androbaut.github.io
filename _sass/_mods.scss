@@ -215,3 +215,10 @@ figcaption{
   margin: 30px auto 95px auto;
   display: block;
 }
+
+@media (max-width: 379px){
+  .navbar-brand > img{
+    margin-top: 10px;
+    height: 60%;
+  }
+}
